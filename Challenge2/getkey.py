@@ -1,7 +1,7 @@
 from get_metadata import get_metadata
 
 
-# https://stackoverflow.com/questions/9807634/find-all-occurrences-of-a-key-in-nested-python-dictionaries-and-lists
+
 def get_nested_object_value(data, key):
     try:
         for k, v in data.items():
